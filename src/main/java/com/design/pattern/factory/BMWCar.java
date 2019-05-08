@@ -1,4 +1,4 @@
-package com.design.pattern.factory.abstractFactory;
+package com.design.pattern.factory;
 
 import com.design.pattern.factory.Car;
 

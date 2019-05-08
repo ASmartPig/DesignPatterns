@@ -13,7 +13,7 @@ import com.design.pattern.factory.simpleFactory.CarFactory;
  * 缺点：每次增加一个产品时，都需要增加一个具体类和对象实现工厂，使得系统中类的个数成倍增加，在一定程度上增加了系统的复杂度，同时也增加了系统具体类的依赖。这并不是什么好事
  * @Author 2019/5/8 下午3:10
  **/
-public class TestFactoryPattern {
+public class TestSimpleFactoryPattern {
     public static void main(String[] args) {
         CarFactory carFactory = new CarFactory();
 
