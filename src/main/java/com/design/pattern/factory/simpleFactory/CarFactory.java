@@ -1,9 +1,9 @@
 package com.design.pattern.factory.simpleFactory;
 
-import com.design.pattern.factory.AudiCar;
-import com.design.pattern.factory.Car;
-import com.design.pattern.factory.PorscheCar;
-import com.design.pattern.factory.BMWCar;
+import com.design.pattern.factory.model.AudiCar;
+import com.design.pattern.factory.model.Car;
+import com.design.pattern.factory.model.PorscheCar;
+import com.design.pattern.factory.model.BMWCar;
 import org.springframework.util.StringUtils;
 
 /**

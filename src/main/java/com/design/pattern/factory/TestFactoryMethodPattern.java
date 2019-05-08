@@ -4,6 +4,7 @@ import com.design.pattern.factory.factoryMethod.AuditCarFactory;
 import com.design.pattern.factory.factoryMethod.BMWCarFactory;
 import com.design.pattern.factory.factoryMethod.Carfactory;
 import com.design.pattern.factory.factoryMethod.PorscheCarFactory;
+import com.design.pattern.factory.model.Car;
 
 /**
  * @Author liaoze

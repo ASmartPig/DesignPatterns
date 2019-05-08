@@ -1,6 +1,6 @@
 package com.design.pattern.factory;
 
-import com.design.pattern.factory.Car;
+import com.design.pattern.factory.model.Car;
 import com.design.pattern.factory.simpleFactory.CarFactory;
 
 /**

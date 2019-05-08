@@ -1,7 +1,7 @@
 package com.design.pattern.factory.factoryMethod;
 
-import com.design.pattern.factory.BMWCar;
-import com.design.pattern.factory.Car;
+import com.design.pattern.factory.model.BMWCar;
+import com.design.pattern.factory.model.Car;
 
 /**
  * @Author liaoze
