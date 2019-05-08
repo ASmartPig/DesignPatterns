@@ -14,19 +14,23 @@ package com.design.pattern.singleton;
  *  disadvantage:
  *      必须加锁佳能保证单例，但加锁会影响效率
  */
-public class SaveSingletonPattern {
+public class SaveLazeSingleton {
 
-    private static SaveSingletonPattern instance;
+    private static SaveLazeSingleton instance;
 
-    private SaveSingletonPattern(){
+    private SaveLazeSingleton(){
     }
 
 
-    public static synchronized  SaveSingletonPattern getInstance(){
+    public static synchronized SaveLazeSingleton getInstance(){
         if (null == instance){
-            instance = new SaveSingletonPattern();
+            instance = new SaveLazeSingleton();
         }
         return instance;
+    }
+
+    public void showMessage(){
+        System.out.println("I am the only instance of SaveLazeSingleton pattern");
     }
 
 

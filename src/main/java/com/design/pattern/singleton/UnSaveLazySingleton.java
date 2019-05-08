@@ -27,6 +27,10 @@ public class UnSaveLazySingleton {
         return instance;
     }
 
+    public void showMessage(){
+        System.out.println("I am the only instance of the UnSaveLazySingleton pattern");
+    }
+
 
 
 }

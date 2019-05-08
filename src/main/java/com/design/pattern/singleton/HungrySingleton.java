@@ -27,4 +27,8 @@ public class HungrySingleton {
     public static HungrySingleton getInstance(){
         return instance;
     }
+
+    public void showMessage(){
+        System.out.println("I am the only instance of the HungrySingleton pattern");
+    }
 }
