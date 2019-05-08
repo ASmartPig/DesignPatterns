@@ -7,7 +7,7 @@ package com.design.pattern.singleton;
  **/
 
 /**
- * 登记式/金泰内部类
+ * 登记式/静态内部类
  *
  * 是否lazy 初始化：yes
  * 是否多线程安全 ：yes
