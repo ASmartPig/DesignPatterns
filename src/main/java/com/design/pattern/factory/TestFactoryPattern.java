@@ -1,4 +1,7 @@
-package com.design.pattern.factory.simpleFactory;
+package com.design.pattern.factory;
+
+import com.design.pattern.factory.Car;
+import com.design.pattern.factory.simpleFactory.CarFactory;
 
 /**
  * @Author liaoze

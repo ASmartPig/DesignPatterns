@@ -1,4 +1,4 @@
-package com.design.pattern.factory.simpleFactory;
+package com.design.pattern.factory;
 
 /**
  * @Author liaoze
