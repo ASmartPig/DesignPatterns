@@ -1,4 +1,4 @@
-package com.design.pattern.factory;
+package com.design.pattern.factory.simpleFactory;
 
 import org.springframework.util.StringUtils;
 
@@ -9,7 +9,7 @@ import org.springframework.util.StringUtils;
  **/
 public class CarFactory {
 
-    public  Car getCar(String type){
+    public Car getCar(String type){
         if (StringUtils.isEmpty(type)){
             return null;
         }else if(type.equals("Audi")){

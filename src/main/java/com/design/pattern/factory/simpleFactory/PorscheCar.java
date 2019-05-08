@@ -1,11 +1,11 @@
-package com.design.pattern.factory;
+package com.design.pattern.factory.simpleFactory;
 
 /**
  * @Author liaoze
  * @Description
  * @Author 2019/5/8 下午2:47
  **/
-public class PorscheCar implements Car{
+public class PorscheCar implements Car {
 
     @Override
     public void showName() {
