@@ -27,7 +27,7 @@
         <fastjson.version>1.2.54</fastjson.version>
         <lombok.version>1.18.4</lombok.version>
         <swagger2.version>2.6.1</swagger2.version>
-        <jackson.version> 2.9.8</jackson.version>
+        <jackson.version>2.10.1</jackson.version>
     </properties>
 
     <dependencies>
